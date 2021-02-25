@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>STEN SAX PÅSE</title>
+</head>
+<body>
+    <header>
+        <h1>Sten Sax Påse</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="userLabel" class="badge">Spelare</div>
+        <div id="computerLabel" class="badge">Dator</div>
+        <span id="userScore" class="score">0</span><span class="score-div">:</span><span id="computerScore" class="score">0</span>
+    </div>
+
+    <div class="result">
+        <p id="computerResult"></p>
+        <p id="result"></p>
+    </div>
+
+    <div class="choices">
+        <div class="choice"  id="r">
+           <img src="rock.png" alt="" width="100px">
+        </div>
+        <div class="choice" id="s">
+            <img src="scissors.png" alt="" width="100px">
+         </div>
+         <div class="choice" id="p">
+            <img src="paper.png" alt="" width="100px">
+         </div>
+    </div>
+    <div id="message">
+        <p id="actionMessage">Gör ditt val! Först till 3..</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

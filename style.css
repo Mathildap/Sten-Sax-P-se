@@ -1,0 +1,106 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(62, 62, 62);
+}
+* {
+    box-sizing: border-box;
+}
+header > h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgb(18, 18, 18);
+    text-align: center;
+    color: rgb(166, 201, 188);
+
+}
+.score-board {
+    background-color: rgb(166, 201, 188);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative;
+}
+.badge {
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(97, 97, 97);
+    color: rgb(51, 104, 105);
+}
+#userLabel {
+    position: absolute;
+    top: 25px;
+    left: -70px;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+#computerLabel {
+    position: absolute;
+    top: 25px;
+    right: -53px;
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+.score, .score-div{
+    font-size: 55px;
+    text-shadow: 2px 2px 2px rgb(97, 97, 97);
+}
+.result {
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+#result, #computerResult {
+    margin: 0;
+}
+.choices {
+    margin: 20px auto;
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(166, 201, 188);
+    transition: all 0.3s ease;
+}
+.choice:hover {
+    cursor: pointer;
+    border: 5px solid rgb(32, 43, 45);
+}
+#actionMessage {
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+#message {
+    text-align: center;
+}
+#restartBtn {
+    width: 130px;
+    background-color: rgb(207, 232, 223);
+    color: rgb(83, 126, 110);
+    padding: 10px 15px;
+    border: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#restartBtn:hover {
+    background-color: rgb(172, 172, 172);
+    color: rgb(207, 232, 223);
+}
