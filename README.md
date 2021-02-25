@@ -1,1 +1,2 @@
-# Sten-Sax-P-se
+# Sten-Sax-Påse
+Först till 3, du mot datorn!
